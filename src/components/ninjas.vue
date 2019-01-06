@@ -1,7 +1,10 @@
 <template>
-  <ul>
-    <li v-for="(ninja, index) in ninjas">{{ninja}}</li>
-  </ul>   
+  <div>
+    <h3>Ninjas registered globally</h3>
+    <ul>
+      <li v-for="(ninja, index) in ninjas">{{ninja}}</li>
+    </ul>   
+  </div>
   
 </template>
 
@@ -21,5 +24,7 @@ export default {
 </script>
 
 <style>
-
+  h1 {
+    color: purple;
+  }
 </style>
