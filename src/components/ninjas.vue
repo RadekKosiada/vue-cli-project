@@ -23,8 +23,12 @@ export default {
 }
 </script>
 
-<style>
+// scoped to keep the style only for this component; otherwise it changes all h1, h3 in the document regardless in what component they are
+<style scoped>
   h1 {
     color: purple;
+  }
+  h3 {
+    color: pink;
   }
 </style>

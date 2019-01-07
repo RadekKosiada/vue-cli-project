@@ -6,6 +6,9 @@ import ninjas from './components/ninjas.vue';
 // Component sailors is registered locally, only in App.vue
 Vue.component('ninjas', ninjas)
 
+// event bus
+export const bus = new Vue({});
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
